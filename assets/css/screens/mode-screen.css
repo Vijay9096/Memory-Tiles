@@ -1,0 +1,4 @@
+#mode-screen { display: flex; flex-direction: column; align-items: center;  justify-content: center; gap: 0; height: 100vh; }
+#mode-buttons { display: flex; flex-direction: column; align-items: center; gap: 0; }
+#mode-buttons button { width: 170px; height: 50px; font-size: 1.2rem; font-weight: bold; text-align: center; position: relative; }
+#mode-buttons button:active { transform: scale(0.95); }
