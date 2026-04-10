@@ -1,0 +1,8 @@
+1️⃣ globals.js
+2️⃣ navigation.js
+3️⃣ difficulty.js
+4️⃣ levels.js
+5️⃣ gameplay.js
+6️⃣ hints.js
+7️⃣ moves.js
+8️⃣ timer.js
