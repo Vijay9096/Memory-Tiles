@@ -99,6 +99,7 @@ function handleTileClick(tile) {
     }, 300);
 
   } else {
+    triggerWrongShake()
 
     setTimeout(() => {
 
