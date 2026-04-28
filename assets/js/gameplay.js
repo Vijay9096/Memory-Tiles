@@ -88,17 +88,23 @@ function handleTileClick(tile) {
 
   if (emoji1 === emoji2) {
 
-    setTimeout(() => {
+  // 🔥 small pop effect
+  firstTile.style.transform = "scale(1.1)";
+  secondTile.style.transform = "scale(1.1)";
 
-      firstTile.classList.add("matched");
-      secondTile.classList.add("matched");
+  setTimeout(() => {
 
-      resetTurn();
-      checkWin();
+    firstTile.style.transform = "";
+    secondTile.style.transform = "";
 
-    }, 300);
+    firstTile.classList.add("matched");
+    secondTile.classList.add("matched");
 
-  } else {
+    resetTurn();
+    checkWin();
+
+  }, 200);
+} else {
     triggerWrongShake()
 
     setTimeout(() => {
